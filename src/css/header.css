@@ -3,7 +3,7 @@
 }
 
 .navbar-brand img {
-  height: 32px;
+  height: 25px;
   transition: height 0.5s ease;
 }
 
@@ -20,7 +20,7 @@
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 0.75rem var(--width-container-gutter);
+  padding: var(--width-container-gutter);
 }
 
 .navbar-toggler {
@@ -52,6 +52,7 @@
 .navbar.navbar-new-bottom {
   background: var(--color-brand-blue);
   display: none;
+  padding: 0.5rem var(--width-container-gutter);
 }
 
 .navbar-new-bottom .nav-item {
@@ -179,7 +180,7 @@
   .primary-action {
     position: absolute;
     right: 1.875rem;
-    top: -110%;
+    top: -130%;
   }
 
   .navbar.navbar-new-bottom,
@@ -202,9 +203,9 @@
     padding: 0 25px;
   }
 
-  .navbar {
+  /* .navbar {
     padding: 0.75rem 1.875rem;
-  }
+  } */
 }
 
 @media screen and (max-width: 767px) {

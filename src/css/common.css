@@ -21,6 +21,8 @@
 
 @media screen and (min-width: 768px) {
   .btn-primary {
-    padding: 8px 25px;
+    padding: 0px 25px;
+    height: 35px;
+    line-height: 35px;
   }
 }

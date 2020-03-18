@@ -144,7 +144,7 @@
   font-weight: var(--weight-bold);
   letter-spacing: -0.025em;
   line-height: 1.2;
-  margin-bottom: 0.25rem;
+  margin-bottom: 1rem;
 }
 
 .doc hr {
